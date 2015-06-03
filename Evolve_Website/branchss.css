@@ -1,0 +1,105 @@
+﻿html,body{
+	margin: 0;
+	padding: 0;
+	max-height: 100%;
+	background: url('http://www.hdwallpaperspics.com/wp-content/uploads/2012/12/Future_city_final_high_resolution_desktop_2048x1103_hd-wallpaper-571096.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size: 100% 100%;
+}
+
+*{
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.linkfooterone nav ul li a:hover{
+	color:#66CCFF;
+}
+
+#container{
+	position:relative;
+	min-height: 100%;
+}
+
+#formcontent{
+	text-align:center;
+	position: relative;
+	margin-top:15%;
+	padding-bottom: 12em;
+}
+
+#formcontent h2{
+	font-family: Arial, serif;
+	color: #990000;
+	text-shadow:0px 0px 0 rgb(-156,-83,-56), 1px 1px 0 rgb(-411,-338,-311),2px 2px 1px rgba(0,0,0,0.15),2px 2px 1px 				    rgba(0,0,0,0.5),0px 0px 1px rgba(0,0,0,.2);
+}
+
+input[type=submit]{
+	border:1px #EBEBEB solid;
+	border-radius:5px;
+	width:70px;
+	height:35px;
+	background: linear-gradient(#E6E6E6,#B8B8B8);
+	background: -moz-linear-gradient(#E6E6E6,#B8B8B8);
+}
+
+input[type=submit]:hover{
+	background: linear-gradient(#85D6FF,#478FB2);
+	background: -moz-linear-gradient(#85D6FF,#478FB2);
+	border-color:#85D6FF;
+}
+
+input[type=text]{
+	border:1px #EBEBEB solid;
+	height:25px;
+	border-radius:20px;
+}
+
+input[type=password]{
+	border:1px #EBEBEB solid;
+	height:25px;
+	border-radius:20px;
+}
+
+input[type=text]:focus{
+	outline: none;
+	border:1px #85D6FF solid;
+	height:25px;
+	border-radius:20px;
+}
+
+input[type=password]:focus{
+	outline: none;
+	border:1px #85D6FF solid;
+	height:25px;
+	border-radius:20px;
+}
+
+.linkfooterone{
+	position: relative;
+	width: 100%;
+}
+
+.linkfooterone nav{
+	float:right;
+	margin-right: 5%;
+}
+
+.linkfooterone nav ul{
+	list-style-type: none;
+}
+
+.linkfooterone nav ul li{
+	padding-left: 5em;
+	display: inline;
+}
+
+.linkfooterone nav ul li a{
+	text-decoration: none;
+	color:#EBEBEB;
+	font-size:1em;
+}
+	
+
+
